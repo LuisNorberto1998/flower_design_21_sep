@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Estilos para el cielo */
+.sky {
+    background-color: #87ceeb; /* Azul cielo */
+    height: 80%; /* Ajusta la altura según tus necesidades */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+}
+
+/* Estilos para las nubes */
+.cloud {
+    position: absolute;
+    background-color: #ffffff; /* Blanco para las nubes */
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.cloud1 {
+    /* Estilos para la primera nube */
+    /* Ajusta las propiedades de posición según tus necesidades */
+    width: 100px;
+    height: 50px;
+    top: 50px;
+    left: 100px;
+}
+
+.cloud2 {
+    /* Estilos para la segunda nube */
+    /* Ajusta las propiedades de posición según tus necesidades */
+    width: 120px;
+    height: 60px;
+    top: 80px;
+    left: 300px;
+}
+
+.cloud3 {
+    /* Estilos para la tercera nube */
+    /* Ajusta las propiedades de posición según tus necesidades */
+    width: 90px;
+    height: 45px;
+    top: 120px;
+    left: 500px;
+}
+
+/* Estilos para el pasto o paisaje */
+.landscape {
+    position: absolute;
+    background-color: #7cfc00; /* Verde para el pasto */
+    bottom: 0;
+    width: 100%;
+    height: 20%; /* Ajusta la altura según tus necesidades */
+}
+
+/* Estilos para el lienzo */
+#myCanvas {
+    position: absolute;
+    /* Ajusta las propiedades de posición según tus necesidades */
+    top: 50px;
+    left: 0;
+}
+
+h1,
+h2 {
+    text-align: right;
+    font-family: "Pacifico", cursive;
+    margin: 30px;
+}
+
+h1 {
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    font-size: 6rem;
+    color: #ff69b4;
+}
+
+h2 {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    font-size: 2.5rem;
+    width: 55%;
+    color: #ff69b4;
+}
