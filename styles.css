@@ -142,15 +142,23 @@ audio {
     }
 
     #myCanvas {
-        top: 45vh;
-        left: 0;
+        top: 30vh;
+        left: -15px;
         width: 50vw;
         height: 50%;
     }
 
     audio {
-        top: 90vh;
+        top: 75vh;
         width: 50%;
+    }
+
+    .landscape {
+        position: absolute;
+        background-color: #7cfc00; /* Verde para el pasto */
+        bottom: 0;
+        width: 100vw;
+        height: 30vh; /* Ajusta la altura según tus necesidades */
     }
 }
 
