@@ -99,6 +99,13 @@ body {
     padding: 0;
 }
 
+audio {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media (max-width: 768px) {
     .cloud1 {
@@ -140,6 +147,11 @@ body {
         left: 0;
         width: 50vw;
         height: auto;
+    }
+
+    audio {
+        top: 90vh;
+        width: 50%;
     }
 }
 
@@ -220,4 +232,3 @@ body {
         font-size: calc(1rem + 0.9em);
     }
 }
-
